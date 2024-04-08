@@ -43,6 +43,7 @@ header, main{
     max-width: 500px;
     max-height: 230px;
    margin-top: -10px;
+
     }
 /* termina sub parte - grafico */
 
@@ -118,12 +119,15 @@ header p {
 
 /* hr... */
 hr{
-    margin-top: 1rem;
+    margin-top: 0rem;
     border: 1px solid var(--cream);
 }
 
 @media (min-width: 600px) {
     .result > p{
         font-size: 2.3em;
+    }
+    hr{
+        margin-top: 1rem;
     }
   }
