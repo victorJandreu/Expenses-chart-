@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+    </style>
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+
+</head>
+<body>
+
+  <header class="flex">
+    <div> 
+      <h1>My balance</h1>
+      <p>$921.48</p>
+    </div>
+    <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+  </header>
+
+  <main>
+    <div>
+      <h2 class="spendingTitle">Spending - Last 7 days</h2>
+      <div class="modificarTamaño">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+    <hr>
+    <section>
+      <h2>Total this month</h2>
+      <div class="flex result">
+        <p>$478.33</p>
+        <div>
+          <p class="porcentaje">+2.4%</p>
+          <p class="last-month">from last month</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="chart.js" type="module"></script>
+</body>
+</html>
